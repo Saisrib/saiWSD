@@ -1,0 +1,63 @@
+[
+    {
+      "breed": "Golden Retriever",
+      "color": "Golden",
+      "country":"United States"
+    
+    },
+    {
+        "breed": "German Shepherd",
+        "color": "Tan",
+        "country":"Germany"
+      
+    },
+    {
+        "breed": "Poodle",
+        "color": "White",
+        "country":"France"
+    },
+    {
+        "breed": "Bulldog",
+        "color": "Bringdle",
+        "country":"United Kingdom"
+      
+    },
+    {
+        "breed": "Labrador Retriever",
+        "color": "Yellow",
+        "country":"Canada"
+      
+    },
+    {
+        "breed": "Boxer",
+        "color": "Fawn",
+        "country":"Germany"
+      
+    },
+    {
+        "breed": "Beagle",
+        "color": "Tri-color",
+        "country":"United Kingdom"
+      
+    },
+    {
+        "breed": "Dachshund",
+        "color": "Red",
+        "country":"Germany"
+      
+    },
+    {
+        "breed": "Doberman Pinscher",
+        "color": "Black and Tan",
+        "country":"Germany"
+      
+    },
+    {
+        "breed": "Rottweiler Color:",
+        "color": "Black and Tan",
+        "country":"Germany"
+      
+    }
+    
+  ]
+  

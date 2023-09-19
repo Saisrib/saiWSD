@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fetch JSON Data with AJAX</title>
+<script src="https://dog.ceo/api/breeds/image/random"></script>
+
+<script>
+function fetchimage() {
+  $.ajax({
+    url:"download.jpeg",
+    dataType: "image",
+    success: function(data) {
+      displayimage(data);
+    }
+  });
+}
+
+function displayimage(data) {
+  var bookList = document.getElementById("Image");
+  bookList.innerHTML = "";
+}
+  for (var i in data) {
+    var image = data[i];
+    var imageDiv = document.createElement("div");
+} 
+    
+
+$(document).ready(function() {
+  $("#fetchImages").click(fetchImages);
+});
+</script>
+</head>
+<body>
+  <h1>Fetch images of Dog</h1>
+  <button id="fetchBooks">Fetch Random Dog Images</button>
+  <div id="images"></div>
+</body>
+</html>
+
+
